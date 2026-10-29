@@ -11,10 +11,10 @@
 <!-- STATS:START -->
 <table>
   <tr>
-    <td align="center" width="25%"><h3>18</h3><sub>PUBLIC REPOS</sub></td>
+    <td align="center" width="25%"><h3>19</h3><sub>PUBLIC REPOS</sub></td>
     <td align="center" width="25%"><h3>10</h3><sub>STARS</sub></td>
     <td align="center" width="25%"><h3>10</h3><sub>FORKS</sub></td>
-    <td align="center" width="25%"><h3>5</h3><sub>LANGUAGES</sub></td>
+    <td align="center" width="25%"><h3>4</h3><sub>LANGUAGES</sub></td>
   </tr>
 </table>
 <!-- STATS:END -->
@@ -75,60 +75,23 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 ![stars](https://img.shields.io/github/stars/risense-ai/respire-client?style=flat-square&color=0f766e&label=stars)
 ![forks](https://img.shields.io/github/forks/risense-ai/respire-client?style=flat-square&color=0f766e&label=forks)
 
-## `03` 项目全景
+## `03` 更多项目
 
-<sub>LIVE DATA · 由 GitHub Actions 每日自动刷新</sub>
+<sub>GitHub 原生 Repositories 页面支持搜索、语言筛选、排序和提交趋势图。</sub>
 
-在 [**Repositories**](https://github.com/orgs/risense-ai/repositories) 标签查看 GitHub 原生仓库卡片、语言、Star/Fork、Issue/PR 与提交活跃度。主页下方也会自动展示最近更新的仓库。
+<p>
+  <a href="https://github.com/orgs/risense-ai/repositories">
+    <img alt="查看全部仓库" src="https://img.shields.io/badge/查看全部仓库-Repositories-0b1220?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 <details>
-<summary><strong>展开全部项目数据（组织项目 + 团队项目）</strong></summary>
+<summary><strong>团队其他项目</strong></summary>
 
-<!-- PROJECTS:START -->
-### 核心引擎与产品
-
-| 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
-| :-- | :-- | :-- | --: | --: | :-- |
-| **[respire-cli](https://github.com/risense-ai/respire-cli)** | Respire CLI with local storage and background synchronization | Rust | 5 | 3 | 2026-10-29 |
-| **[respire-server](https://github.com/risense-ai/respire-server)** | Respire encrypted synchronization and account service | Rust | 0 | 2 | 2026-10-29 |
-| **[respire-client](https://github.com/risense-ai/respire-client)** | Respire desktop client and local web interface | JavaScript | 0 | 1 | 2026-10-27 |
-| **[respire-client2](https://github.com/risense-ai/respire-client2)** | Respire desktop client built with Wails v3 and Go for Windows, macOS and Linux. | CSS | 1 | 0 | 2026-10-29 |
-| **[respire-site](https://github.com/risense-ai/respire-site)** | Private Respire sources: respire-site. Not ready for public release. | TypeScript | 0 | 2 | 2026-10-29 |
-| **[respire-docs](https://github.com/risense-ai/respire-docs)** | Respire documentation | JavaScript | 0 | 0 | 2026-10-29 |
-| **[respire-releases](https://github.com/risense-ai/respire-releases)** | Private Respire sources: respire-releases. Not ready for public release. | JavaScript | 0 | 0 | 2026-10-25 |
-| **[respire-memtool](https://github.com/risense-ai/respire-memtool)** | rsrs记忆的桌面工具 | Rust | 0 | 1 | 2026-10-27 |
-
-### Agent / 编辑器集成
-
-| 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
-| :-- | :-- | :-- | --: | --: | :-- |
-| **[respire-codex](https://github.com/risense-ai/respire-codex)** | Respire memory for Codex. npm: @rsrsai/codex | JavaScript | 0 | 1 | 2026-10-29 |
-| **[respire-qoder](https://github.com/risense-ai/respire-qoder)** | respire memory for Qoder: every-round title-tier recall, one-prefix store, model-optional degra… | Python | 0 | 0 | 2026-10-28 |
-| **[respire-workbuddy](https://github.com/risense-ai/respire-workbuddy)** | respire × WorkBuddy 记忆插件：安装 respire（rsrs）引擎并注入 hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 0 | 0 | 2026-10-29 |
-| **[respire-dimcode](https://github.com/risense-ai/respire-dimcode)** | respire × Dim agent 记忆插件：安装 respire（rsrs）引擎并注入 Dim hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 3 | 0 | 2026-10-25 |
-| **[respire-zcode](https://github.com/risense-ai/respire-zcode)** | respire memory for ZCode: every-round title-tier recall, one-prefix store, Stop storage check. … | Python | 0 | 0 | 2026-10-25 |
-| **[respire-kimi](https://github.com/risense-ai/respire-kimi)** | respire memory for Kimi Code: every-round title-tier recall, one-prefix store, model-optional d… | Python | 0 | 0 | 2026-10-23 |
-| **[respire-hermes](https://github.com/risense-ai/respire-hermes)** | Respire memory provider plugin for Hermes Agent. | Python | 0 | 0 | 2026-10-25 |
-| **[respire-pi](https://github.com/risense-ai/respire-pi)** | Native memory extension for Pi coding agent. | JavaScript | 0 | 0 | 2026-10-24 |
-| **[respire-dsh](https://github.com/risense-ai/respire-dsh)** | Respire memory for DeepSeek Harness (dsh). npm: @rsrsai/dsh | TypeScript | 1 | 0 | 2026-10-19 |
-
-### 技能与生态
-
-| 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
-| :-- | :-- | :-- | --: | --: | :-- |
-| **[skills](https://github.com/risense-ai/skills)** | rsrs skills | Python | 0 | 0 | 2026-10-11 |
-
-### 团队其他项目 / More from the team
-
-| 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
-| :-- | :-- | :-- | --: | --: | :-- |
-| **[cocurdex](https://github.com/imthewiner/cocurdex)** | A desktop-first multi-agent development workspace | — | 0 | 0 | 2026-10-29 |
-| **[editor](https://github.com/imthewiner/editor)** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for hu… | — | 0 | 0 | 2026-09-10 |
-| **[komari-zig-agent](https://github.com/imthewiner/komari-zig-agent)** | komari 的zig版本的agent, 超低资源占用，100%测试覆盖，支持所有linux的架构和发行版 | — | 0 | 0 | 2026-09-10 |
-| **[perfectPixel](https://github.com/imthewiner/perfectPixel)** | Refine and quantize messy AI pixel art into clean, perfect pixels. | Python | 0 | 0 | 2026-01-26 |
-
-<sub>数据更新于 2026-10-29（UTC）· 由 GitHub Actions 自动生成</sub>
-<!-- PROJECTS:END -->
+- [cocurdex](https://github.com/imthewiner/cocurdex) — A desktop-first multi-agent development workspace.
+- [editor](https://github.com/imthewiner/editor) — Open-source 3D architectural editor with CLI and MCP tools.
+- [komari-zig-agent](https://github.com/imthewiner/komari-zig-agent) — komari 的 Zig 版本 agent，低资源占用。
+- [perfectPixel](https://github.com/imthewiner/perfectPixel) — Refine and quantize AI pixel art.
 
 </details>
 
