@@ -1,0 +1,49 @@
+{
+  "org": "risense-ai",
+  "groups": [
+    {
+      "title": "核心引擎与产品",
+      "repos": [
+        "respire-cli",
+        "respire-server",
+        "respire-client",
+        "respire-client2",
+        "respire-site",
+        "respire-docs",
+        "respire-releases",
+        "respire-memtool"
+      ]
+    },
+    {
+      "title": "Agent / 编辑器集成",
+      "repos": [
+        "respire-codex",
+        "respire-qoder",
+        "respire-workbuddy",
+        "respire-dimcode",
+        "respire-zcode",
+        "respire-kimi",
+        "respire-hermes",
+        "respire-pi",
+        "respire-dsh"
+      ]
+    },
+    {
+      "title": "技能与生态",
+      "repos": ["skills"]
+    }
+  ],
+  "external": [
+    {
+      "group": "团队其他项目 / More from the team",
+      "repos": [
+        "imthewiner/cocurdex",
+        "imthewiner/editor",
+        "imthewiner/komari-zig-agent",
+        "imthewiner/perfectPixel"
+      ]
+    }
+  ],
+  "autoInclude": true,
+  "autoIncludeTitle": "更多仓库"
+}

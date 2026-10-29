@@ -1,0 +1,45 @@
+name: Refresh organization profile
+
+on:
+  schedule:
+    # 每天 01:00 UTC（北京时间 09:00）
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "repos.json"
+      - "scripts/**"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate project table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 若要统计其他组织/个人账号下的私有仓库，请添加 PROFILE_TOKEN（PAT）
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: node scripts/update-profile.mjs
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh project stats"
+          file_pattern: "profile/README.md"
