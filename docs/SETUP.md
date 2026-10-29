@@ -35,7 +35,7 @@
 3. 打开 `https://github.com/risense-ai`，README 应立即显示。
 4. 进入 **Actions → Refresh organization profile → Run workflow**，手动跑一次，确认机器人能提交。
 5. 组织主页 → **Customize pins**，选 6 个最重要的仓库（建议：`respire-cli`、`respire-server`、`respire-client`、`respire-site`、`respire-codex`、`skills`）。
-6. 到 `settings/profile` 补全简介、官网 `https://rsrs.rs`、社交链接。
+6. 到 `settings/profile` 补全简介、官网 `https://rsrs.rs`、社交链接；头像可上传 `assets/avatar.png`。
 
 ## 三、如何把“团队其他项目”加进来
 
