@@ -146,10 +146,6 @@ if (config.autoInclude) {
 }
 
 const body = blocks.filter(Boolean).join("\n").trim();
-if (!body) {
-  console.error("没有生成任何项目数据，保留原 README。");
-  process.exit(1);
-}
 
 // 组织级统计（只统计本组织仓库，排除 .github 配置仓库与外部项目）
 const orgRepos = [...displayed.values()].filter(
@@ -185,14 +181,20 @@ const withStats = statsPattern.test(readme)
 const pattern = new RegExp(
   `${START.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[\\s\\S]*?${END.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`,
 );
-if (!pattern.test(withStats)) {
-  console.error(`README 缺少 ${START} / ${END} 标记，未写入。`);
-  process.exit(1);
+
+let next = withStats;
+if (pattern.test(next)) {
+  if (!body) {
+    console.error("没有生成任何项目数据，保留原 README。");
+    process.exit(1);
+  }
+  const stamp = new Date().toISOString().slice(0, 10);
+  const footer = `\n\n<sub>数据更新于 ${stamp}（UTC）· 由 GitHub Actions 自动生成</sub>`;
+  next = next.replace(pattern, `${START}\n${body}${footer}\n${END}`);
+} else {
+  console.log(`README 无 ${START} / ${END} 标记，跳过项目表更新`);
 }
 
-const stamp = new Date().toISOString().slice(0, 10);
-const footer = `\n\n<sub>数据更新于 ${stamp}（UTC）· 由 GitHub Actions 自动生成</sub>`;
-const next = withStats.replace(pattern, `${START}\n${body}${footer}\n${END}`);
 await writeFile(README_PATH, next, "utf8");
 
 if (failures.length > 0) {
