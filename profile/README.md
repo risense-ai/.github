@@ -94,7 +94,7 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 | **[respire-client](https://github.com/risense-ai/respire-client)** | Respire desktop client and local web interface | JavaScript | 0 | 1 | 2026-10-27 |
 | **[respire-client2](https://github.com/risense-ai/respire-client2)** | Respire desktop client built with Wails v3 and Go for Windows, macOS and Linux. | CSS | 1 | 0 | 2026-10-29 |
 | **[respire-site](https://github.com/risense-ai/respire-site)** | Private Respire sources: respire-site. Not ready for public release. | TypeScript | 0 | 2 | 2026-10-29 |
-| **[respire-docs](https://github.com/risense-ai/respire-docs)** | Respire documentation | JavaScript | 0 | 0 | 2026-10-25 |
+| **[respire-docs](https://github.com/risense-ai/respire-docs)** | Respire documentation | JavaScript | 0 | 0 | 2026-10-29 |
 | **[respire-releases](https://github.com/risense-ai/respire-releases)** | Private Respire sources: respire-releases. Not ready for public release. | JavaScript | 0 | 0 | 2026-10-25 |
 | **[respire-memtool](https://github.com/risense-ai/respire-memtool)** | rsrs记忆的桌面工具 | Rust | 0 | 1 | 2026-10-27 |
 
