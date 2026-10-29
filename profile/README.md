@@ -75,27 +75,7 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 ![stars](https://img.shields.io/github/stars/risense-ai/respire-client?style=flat-square&color=0f766e&label=stars)
 ![forks](https://img.shields.io/github/forks/risense-ai/respire-client?style=flat-square&color=0f766e&label=forks)
 
-## `03` 更多项目
-
-<sub>GitHub 原生 Repositories 页面支持搜索、语言筛选、排序和提交趋势图。</sub>
-
-<p>
-  <a href="https://github.com/orgs/risense-ai/repositories">
-    <img alt="查看全部仓库" src="https://img.shields.io/badge/查看全部仓库-Repositories-0b1220?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-<details>
-<summary><strong>团队其他项目</strong></summary>
-
-- [cocurdex](https://github.com/imthewiner/cocurdex) — A desktop-first multi-agent development workspace.
-- [editor](https://github.com/imthewiner/editor) — Open-source 3D architectural editor with CLI and MCP tools.
-- [komari-zig-agent](https://github.com/imthewiner/komari-zig-agent) — komari 的 Zig 版本 agent，低资源占用。
-- [perfectPixel](https://github.com/imthewiner/perfectPixel) — Refine and quantize AI pixel art.
-
-</details>
-
-## `04` 技术栈
+## `03` 技术栈
 
 <p>
   <img alt="Rust" src="https://img.shields.io/badge/Rust-0b1220?style=flat-square&logo=rust&logoColor=white" />
@@ -105,7 +85,7 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
   <img alt="Python" src="https://img.shields.io/badge/Python-0b1220?style=flat-square&logo=python&logoColor=3776AB" />
 </p>
 
-## `05` 参与贡献
+## `04` 参与贡献
 
 - 从感兴趣的项目 README 开始，按其中的开发与测试说明运行
 - 提交 Issue 时请附上使用场景与复现步骤；提交 PR 前先对齐改动范围
