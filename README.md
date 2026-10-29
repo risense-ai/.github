@@ -3,7 +3,7 @@
 Risense AI 的组织主页配置仓库。
 
 - `profile/README.md` —— 显示在 https://github.com/risense-ai 的主页正文
-- `assets/banner.svg` —— 主页顶部横幅
+- `assets/banner.svg` / `assets/banner.png` —— 主页顶部横幅（SVG 为源文件，PNG 用于 GitHub 渲染）
 - `repos.json` —— 项目分组与外部项目配置
 - `scripts/update-profile.mjs` —— 拉取仓库数据并刷新主页统计/表格
 - `.github/workflows/update-profile.yml` —— 每天 01:00 UTC 自动运行

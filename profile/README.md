@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/risense-ai/.github/main/assets/banner.svg" alt="Risense AI — Respire" width="100%" />
+  <img src="https://raw.githubusercontent.com/risense-ai/.github/main/assets/banner.png" alt="Risense AI — Respire" width="100%" />
 </div>
 
 <p align="center">
