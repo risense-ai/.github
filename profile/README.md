@@ -92,7 +92,7 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 | **[respire-cli](https://github.com/risense-ai/respire-cli)** | Respire CLI with local storage and background synchronization | Rust | 5 | 3 | 2026-10-29 |
 | **[respire-server](https://github.com/risense-ai/respire-server)** | Respire encrypted synchronization and account service | Rust | 0 | 2 | 2026-10-29 |
 | **[respire-client](https://github.com/risense-ai/respire-client)** | Respire desktop client and local web interface | JavaScript | 0 | 1 | 2026-10-27 |
-| **[respire-client2](https://github.com/risense-ai/respire-client2)** | — | CSS | 1 | 0 | 2026-10-29 |
+| **[respire-client2](https://github.com/risense-ai/respire-client2)** | Respire desktop client built with Wails v3 and Go for Windows, macOS and Linux. | CSS | 1 | 0 | 2026-10-29 |
 | **[respire-site](https://github.com/risense-ai/respire-site)** | Private Respire sources: respire-site. Not ready for public release. | TypeScript | 0 | 2 | 2026-10-29 |
 | **[respire-docs](https://github.com/risense-ai/respire-docs)** | Respire documentation | JavaScript | 0 | 0 | 2026-10-25 |
 | **[respire-releases](https://github.com/risense-ai/respire-releases)** | Private Respire sources: respire-releases. Not ready for public release. | JavaScript | 0 | 0 | 2026-10-25 |
@@ -102,15 +102,15 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 
 | 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
 | :-- | :-- | :-- | --: | --: | :-- |
-| **[respire-codex](https://github.com/risense-ai/respire-codex)** | — | JavaScript | 0 | 1 | 2026-10-29 |
+| **[respire-codex](https://github.com/risense-ai/respire-codex)** | Respire memory for Codex. npm: @rsrsai/codex | JavaScript | 0 | 1 | 2026-10-29 |
 | **[respire-qoder](https://github.com/risense-ai/respire-qoder)** | respire memory for Qoder: every-round title-tier recall, one-prefix store, model-optional degra… | Python | 0 | 0 | 2026-10-28 |
 | **[respire-workbuddy](https://github.com/risense-ai/respire-workbuddy)** | respire × WorkBuddy 记忆插件：安装 respire（rsrs）引擎并注入 hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 0 | 0 | 2026-10-29 |
 | **[respire-dimcode](https://github.com/risense-ai/respire-dimcode)** | respire × Dim agent 记忆插件：安装 respire（rsrs）引擎并注入 Dim hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 3 | 0 | 2026-10-25 |
 | **[respire-zcode](https://github.com/risense-ai/respire-zcode)** | respire memory for ZCode: every-round title-tier recall, one-prefix store, Stop storage check. … | Python | 0 | 0 | 2026-10-25 |
 | **[respire-kimi](https://github.com/risense-ai/respire-kimi)** | respire memory for Kimi Code: every-round title-tier recall, one-prefix store, model-optional d… | Python | 0 | 0 | 2026-10-23 |
-| **[respire-hermes](https://github.com/risense-ai/respire-hermes)** | — | Python | 0 | 0 | 2026-10-25 |
-| **[respire-pi](https://github.com/risense-ai/respire-pi)** | — | JavaScript | 0 | 0 | 2026-10-24 |
-| **[respire-dsh](https://github.com/risense-ai/respire-dsh)** | — | TypeScript | 1 | 0 | 2026-10-19 |
+| **[respire-hermes](https://github.com/risense-ai/respire-hermes)** | Respire memory provider plugin for Hermes Agent. | Python | 0 | 0 | 2026-10-25 |
+| **[respire-pi](https://github.com/risense-ai/respire-pi)** | Native memory extension for Pi coding agent. | JavaScript | 0 | 0 | 2026-10-24 |
+| **[respire-dsh](https://github.com/risense-ai/respire-dsh)** | Respire memory for DeepSeek Harness (dsh). npm: @rsrsai/dsh | TypeScript | 1 | 0 | 2026-10-19 |
 
 ### 技能与生态
 
