@@ -79,6 +79,11 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 
 <sub>LIVE DATA · 由 GitHub Actions 每日自动刷新</sub>
 
+在 [**Repositories**](https://github.com/orgs/risense-ai/repositories) 标签查看 GitHub 原生仓库卡片、语言、Star/Fork、Issue/PR 与提交活跃度。主页下方也会自动展示最近更新的仓库。
+
+<details>
+<summary><strong>展开全部项目数据（组织项目 + 团队项目）</strong></summary>
+
 <!-- PROJECTS:START -->
 ### 核心引擎与产品
 
@@ -87,7 +92,7 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 | **[respire-cli](https://github.com/risense-ai/respire-cli)** | Respire CLI with local storage and background synchronization | Rust | 5 | 3 | 2026-10-29 |
 | **[respire-server](https://github.com/risense-ai/respire-server)** | Respire encrypted synchronization and account service | Rust | 0 | 2 | 2026-10-29 |
 | **[respire-client](https://github.com/risense-ai/respire-client)** | Respire desktop client and local web interface | JavaScript | 0 | 1 | 2026-10-27 |
-| **[respire-client2](https://github.com/risense-ai/respire-client2)** | — | Go | 1 | 0 | 2026-10-29 |
+| **[respire-client2](https://github.com/risense-ai/respire-client2)** | — | CSS | 1 | 0 | 2026-10-29 |
 | **[respire-site](https://github.com/risense-ai/respire-site)** | Private Respire sources: respire-site. Not ready for public release. | TypeScript | 0 | 2 | 2026-10-29 |
 | **[respire-docs](https://github.com/risense-ai/respire-docs)** | Respire documentation | JavaScript | 0 | 0 | 2026-10-25 |
 | **[respire-releases](https://github.com/risense-ai/respire-releases)** | Private Respire sources: respire-releases. Not ready for public release. | JavaScript | 0 | 0 | 2026-10-25 |
@@ -99,7 +104,7 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 | :-- | :-- | :-- | --: | --: | :-- |
 | **[respire-codex](https://github.com/risense-ai/respire-codex)** | — | JavaScript | 0 | 1 | 2026-10-29 |
 | **[respire-qoder](https://github.com/risense-ai/respire-qoder)** | respire memory for Qoder: every-round title-tier recall, one-prefix store, model-optional degra… | Python | 0 | 0 | 2026-10-28 |
-| **[respire-workbuddy](https://github.com/risense-ai/respire-workbuddy)** | respire × WorkBuddy 记忆插件：安装 respire（rsrs）引擎并注入 hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 0 | 0 | 2026-10-27 |
+| **[respire-workbuddy](https://github.com/risense-ai/respire-workbuddy)** | respire × WorkBuddy 记忆插件：安装 respire（rsrs）引擎并注入 hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 0 | 0 | 2026-10-29 |
 | **[respire-dimcode](https://github.com/risense-ai/respire-dimcode)** | respire × Dim agent 记忆插件：安装 respire（rsrs）引擎并注入 Dim hook——每轮标题档自动召回、「记：」即落库。吸即存，呼即取。 | Python | 3 | 0 | 2026-10-25 |
 | **[respire-zcode](https://github.com/risense-ai/respire-zcode)** | respire memory for ZCode: every-round title-tier recall, one-prefix store, Stop storage check. … | Python | 0 | 0 | 2026-10-25 |
 | **[respire-kimi](https://github.com/risense-ai/respire-kimi)** | respire memory for Kimi Code: every-round title-tier recall, one-prefix store, model-optional d… | Python | 0 | 0 | 2026-10-23 |
@@ -117,13 +122,15 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 
 | 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
 | :-- | :-- | :-- | --: | --: | :-- |
-| **[cocurdex](https://github.com/imthewiner/cocurdex)** | A desktop-first multi-agent development workspace | — | 0 | 0 | 2026-10-28 |
+| **[cocurdex](https://github.com/imthewiner/cocurdex)** | A desktop-first multi-agent development workspace | — | 0 | 0 | 2026-10-29 |
 | **[editor](https://github.com/imthewiner/editor)** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for hu… | — | 0 | 0 | 2026-09-10 |
 | **[komari-zig-agent](https://github.com/imthewiner/komari-zig-agent)** | komari 的zig版本的agent, 超低资源占用，100%测试覆盖，支持所有linux的架构和发行版 | — | 0 | 0 | 2026-09-10 |
 | **[perfectPixel](https://github.com/imthewiner/perfectPixel)** | Refine and quantize messy AI pixel art into clean, perfect pixels. | Python | 0 | 0 | 2026-01-26 |
 
 <sub>数据更新于 2026-10-29（UTC）· 由 GitHub Actions 自动生成</sub>
 <!-- PROJECTS:END -->
+
+</details>
 
 ## `04` 技术栈
 
