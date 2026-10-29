@@ -133,6 +133,7 @@ if (config.autoInclude) {
       `https://api.github.com/orgs/${org}/repos?per_page=100&type=public&sort=pushed`,
     );
     const rest = all
+      .filter((repo) => !repo.name.startsWith(".github"))
       .filter((repo) => !configured.has(repo.full_name))
       .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
       .map((repo) => repo.full_name);
@@ -150,15 +151,11 @@ if (!body) {
   process.exit(1);
 }
 
-// 组织级统计（只统计本组织仓库，外部项目不计入）
-const orgRepos = [...displayed.values()].filter((repo) => repo.full.startsWith(`${org}/`));
-let publicRepoCount = orgRepos.length;
-try {
-  const orgInfo = await fetchJson(`https://api.github.com/orgs/${org}`);
-  publicRepoCount = orgInfo.public_repos ?? publicRepoCount;
-} catch (error) {
-  failures.push(`读取组织信息失败: ${error.message}`);
-}
+// 组织级统计（只统计本组织仓库，排除 .github 配置仓库与外部项目）
+const orgRepos = [...displayed.values()].filter(
+  (repo) => repo.full.startsWith(`${org}/`) && !repo.name.startsWith(".github"),
+);
+const publicRepoCount = orgRepos.length;
 
 const totalStars = orgRepos.reduce((sum, repo) => sum + repo.stars, 0);
 const totalForks = orgRepos.reduce((sum, repo) => sum + repo.forks, 0);

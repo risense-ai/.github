@@ -11,7 +11,7 @@
 <!-- STATS:START -->
 <table>
   <tr>
-    <td align="center" width="25%"><h3>19</h3><sub>PUBLIC REPOS</sub></td>
+    <td align="center" width="25%"><h3>18</h3><sub>PUBLIC REPOS</sub></td>
     <td align="center" width="25%"><h3>10</h3><sub>STARS</sub></td>
     <td align="center" width="25%"><h3>10</h3><sub>FORKS</sub></td>
     <td align="center" width="25%"><h3>5</h3><sub>LANGUAGES</sub></td>
@@ -121,12 +121,6 @@ Respire 的命令行与本地记忆引擎。记忆的写入、召回、同步与
 | **[editor](https://github.com/imthewiner/editor)** | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for hu… | — | 0 | 0 | 2026-09-10 |
 | **[komari-zig-agent](https://github.com/imthewiner/komari-zig-agent)** | komari 的zig版本的agent, 超低资源占用，100%测试覆盖，支持所有linux的架构和发行版 | — | 0 | 0 | 2026-09-10 |
 | **[perfectPixel](https://github.com/imthewiner/perfectPixel)** | Refine and quantize messy AI pixel art into clean, perfect pixels. | Python | 0 | 0 | 2026-01-26 |
-
-### 更多仓库
-
-| 项目 | 简介 | 语言 | ⭐ | 🍴 | 最近更新 |
-| :-- | :-- | :-- | --: | --: | :-- |
-| **[.github](https://github.com/risense-ai/.github)** | Organization profile for Risense AI - long-term memory infrastructure for humans and AI agents. | JavaScript | 0 | 0 | 2026-10-29 |
 
 <sub>数据更新于 2026-10-29（UTC）· 由 GitHub Actions 自动生成</sub>
 <!-- PROJECTS:END -->
