@@ -11,7 +11,7 @@
 <!-- STATS:START -->
 <table>
   <tr>
-    <td align="center" width="25%"><h3>19</h3><sub>PUBLIC REPOS</sub></td>
+    <td align="center" width="25%"><h3>20</h3><sub>PUBLIC REPOS</sub></td>
     <td align="center" width="25%"><h3>10</h3><sub>STARS</sub></td>
     <td align="center" width="25%"><h3>10</h3><sub>FORKS</sub></td>
     <td align="center" width="25%"><h3>4</h3><sub>LANGUAGES</sub></td>
