@@ -12,9 +12,9 @@
 <table>
   <tr>
     <td align="center" width="25%"><h3>35</h3><sub>PUBLIC REPOS</sub></td>
-    <td align="center" width="25%"><h3>34</h3><sub>STARS</sub></td>
+    <td align="center" width="25%"><h3>35</h3><sub>STARS</sub></td>
     <td align="center" width="25%"><h3>13</h3><sub>FORKS</sub></td>
-    <td align="center" width="25%"><h3>4</h3><sub>LANGUAGES</sub></td>
+    <td align="center" width="25%"><h3>5</h3><sub>LANGUAGES</sub></td>
   </tr>
 </table>
 <!-- STATS:END -->
